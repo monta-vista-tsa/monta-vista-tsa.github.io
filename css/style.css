@@ -211,7 +211,8 @@ a:focus {
 
 #headerwrap {
 	background-color: #65DEF1;
-	background-image: linear-gradient(#1B4079 ,#65DEF1);
+	background: url(../img/home.png) no-repeat center top;
+	background-size: cover;
 	min-height: 100vh;
 	padding-top: 100px;
 	padding-bottom: 0px;
@@ -239,6 +240,11 @@ a:focus {
 
 #headerwrap .right {
 	text-indent: 15vw;
+}
+
+/* Signup */
+#signup {
+	background-image: linear-gradient(#1B4079 ,#65DEF1);
 }
 
 /* Services Wrap */
